@@ -104,3 +104,23 @@ body{
     margin-top: 14px;
     display: none;
 }
+
+@media only screen and (max-width: 1100px) {
+    .search input {
+        padding: 9px 11px;
+        width: 182px;
+    }
+
+    .details {
+        padding: 0px; 
+    }
+
+    .humidity , .wind{
+        font-size: 19px;
+    }
+
+    .col img {
+        width: 32px;
+        margin-right: 10px;
+    }
+}
